@@ -1,5 +1,5 @@
-// source_link: https://programmers.co.kr/learn/courses/30/lessons/42748
-// score = 1000+2
+// title: 정렬 > K번째수
+// link: https://programmers.co.kr/learn/courses/30/lessons/42748?language=cpp
 
 #include <string>
 #include <vector>
