@@ -2,15 +2,19 @@
 
 파이썬 알고리즘/자료구조 공부
 
+문제 출처: programmers, baekjoon
 
+사용 언어: python, c++
+
+난이도 기준: level 0 ~ 5
 
 
 ## 1. 기본 수학
 
 |                       제목                        |                   풀이                   |  난이도   | 포인트                                |
 | :-----------------------------------------------: | :--------------------------------------: | :-------: | :------------------------------------ |
-| [사칙연산](https://www.acmicpc.net/problem/10869) |     [c++](1_기본수학/1_사칙연산.cpp)     | 매우 쉬움 | 표준 입력 함수 cin은 공백을 무시한다. |
-|    [합](https://www.acmicpc.net/problem/8393)     | [c++](./2_sort_정렬/2_sort_가장큰수.cpp) | 매우 쉬움 | .                                     |
+| [사칙연산](https://www.acmicpc.net/problem/10869) |     [c++](1_기본수학/1_사칙연산.cpp)     | level 0 | 표준 입력 함수 cin은 공백을 무시한다. |
+|    [합](https://www.acmicpc.net/problem/8393)     | [c++](./2_sort_정렬/2_sort_가장큰수.cpp) | level 0 | .                                     |
 
 
 
@@ -18,5 +22,5 @@
 
 |                             제목                             |                  풀이                  | 난이도 | 포인트                                              |
 | :----------------------------------------------------------: | :------------------------------------: | :----: | :-------------------------------------------------- |
-| [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748?language=cpp) | [c++](2_sort_정렬/1_sort_k번째수.cpp)  |  쉬움  | sort()는 <algorithm> 헤더파일에 속해있다.           |
-| [가장큰수](https://programmers.co.kr/learn/courses/30/lessons/42746) | [c++](2_sort_정렬/2_sort_가장큰수.cpp) |  쉬움  | sort()는 세번째 인자(함수)를 기준으로 정렬가능하다. |
+| [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748?language=cpp) | [c++](2_sort_정렬/1_sort_k번째수.cpp)  |  level 1  | sort()는 <algorithm> 헤더파일에 속해있다.           |
+| [가장큰수](https://programmers.co.kr/learn/courses/30/lessons/42746) | [c++](2_sort_정렬/2_sort_가장큰수.cpp) |  level 1  | sort()는 세번째 인자(함수)를 기준으로 정렬가능하다. |
