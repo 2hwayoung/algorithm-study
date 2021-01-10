@@ -2,11 +2,11 @@
 
 파이썬 알고리즘/자료구조 공부
 
-문제 출처: programmers, baekjoon
+- 문제 출처: programmers, baekjoon
 
-사용 언어: python, c++
+- 사용 언어: python, c++
 
-난이도 기준: level 0 ~ 5
+- 난이도 기준: level 0 ~ 5
 
 
 ## 1. 기본 수학
