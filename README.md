@@ -26,6 +26,7 @@
 | :----------------------------------------------------------: | :------------------------------------: | :----: | :-------------------------------------------------- |
 | [K번째수](https://programmers.co.kr/learn/courses/30/lessons/42748?language=cpp) | [c++](2_sort_정렬/1_sort_k번째수.cpp)  |  level 1  | sort()는 <algorithm> 헤더파일에 속해있다.           |
 | [가장큰수](https://programmers.co.kr/learn/courses/30/lessons/42746) | [c++](2_sort_정렬/2_sort_가장큰수.cpp) |  level 1  | sort()는 세번째 인자(함수)를 기준으로 정렬가능하다. |
+| [후보 추천하기](https://www.acmicpc.net/problem/1713) | [c++](알고리즘/1_알고리즘_기초/후보추천하기.cpp) | 실버 I |여러 vector에서 하나의 객체를 참조할 때 포인터를 신중히 써야 한다. 공부 필요! |
 
 
 
@@ -35,6 +36,8 @@
 | :-----------------------: | :------------------------------------------------: | :-----------------------------------------: | :------- | ------ |
 | binary search (이분 탐색) |    [게임](https://www.acmicpc.net/problem/1072)    |    [c++](알고리즘/2_시간복잡도/게임.cpp)    | 실버 III | .      |
 | binary search (이분 탐색) | [나무자르기](https://www.acmicpc.net/problem/2805) | [c++](알고리즘/2_시간복잡도/나무자르기.cpp) | 실버 III | .      |
+| binary search (이분 탐색) | [수 찾기](https://www.acmicpc.net/problem/1920) | [c++](알고리즘/2_시간복잡도/수찾기.cpp) | 실버 IV | . |
+| DFS (깊이우선탐색) | [가르침](https://www.acmicpc.net/problem/1062) | [c++](알고리즘/1_알고리즘_기초/가르침.cpp) | 골드 IV| . |
 
 
 
