@@ -8,6 +8,7 @@
 
 using namespace std;
 
+// 사람 구조체 생성
 struct Person {
     int num;
     int count;
@@ -15,38 +16,30 @@ struct Person {
     bool isIn;
 
     Person() {};
-
     Person(int _num, int _count, int _timeStamp, bool _isIn) 
-    : num(_num), count(_count), timeStamp(_timeStamp), isIn(_isIn) {};
-
-    int operator < (const Person & o) const {
-        // -1 = 내가 원하는 순서 = 바꾸지 않음
-        if (this->count < o.count) {
-            return -1;
-        }
-        if (this->count == o.count) {
-            if (this->timeStamp < o.timeStamp) {
-                return -1;
-            } else {
-                return 1;
-            }
-        }
-        // 1 = 내가 원하지 않는 순서 = 바꿈
-        else {
-            return 1;
-        }
-    }
+    : num(_num), count(_count), timeStamp(_timeStamp), isIn(_isIn) {}; 
 };
 
-int compare(Person o1, Person o2) {
+bool compare2(Person* o1, Person* o2) {
     // -1 = 내가 원하는 순서 = 바꾸지 않음
-    if (o1.num < o2.num) {
-        return -1;
+    if (o1->count < o2->count) {
+        return true;
+    }
+    if (o1->count == o2->count) {
+        if (o1->timeStamp < o2->timeStamp) {
+            return true;
+        } else {
+            return false;
+        }
     }
     // 1 = 내가 원하지 않는 순서 = 바꿈
     else {
-        return 1;
+        return false;
     }
+}
+
+bool compare(Person* o1, Person* o2) {
+    return o1->num < o2->num;
 }
 
 int main() {
@@ -55,39 +48,50 @@ int main() {
 	cin.tie(NULL);
 	cout.tie(NULL);
 
-    freopen("input.txt", "r", stdin);
+    // freopen("input.txt", "r", stdin);
 
     int N, K;
-    vector<Person> persons(101);
-    vector<Person> list;
+    int i = 1;
+    
+    vector<Person*> persons(101);
+    vector<Person*> list;
 
     cin >> N >> K;
+    int timeStamp = 1;
 
     for (int i=0; i<K; i++) {
         int num;
         cin >> num;
-        if (&persons[num] == nullptr) {
-            persons[num] = Person(num, 0, 0, false);
+        if (!persons[num]) {
+            persons[num] = new Person(num, 0, 0, false);
         }
-        if (persons[num].isIn == true) {
-            persons[num].count++;
+        if (persons[num]->isIn == true) {
+            persons[num]->count += 1;
         } else {
             if (list.size() == N) {
-                sort(list.begin(), list.end(), compare);
-                list.front().isIn = false;
-                list.erase(list.begin());
+                sort(list.begin(), list.end(), compare2);
+                persons[list.front()->num]->isIn = false;
+                list.front()->count = 0;
+                list.erase(list.begin());  
             }
-            persons[num].count = 1;
-            persons[num].isIn = true;
-            persons[num].timeStamp = 1;
+            persons[num]->num = num;
+            persons[num]->count = 1;
+            persons[num]->isIn = true;
+            persons[num]->timeStamp = timeStamp++;
             list.push_back(persons[num]);
         }
     }
 
     sort(list.begin(), list.end(), compare);
 
-    for (int i = 0; i < N; i ++) {
-        cout << list[i].num << " ";
+    for (int i = 0; i < N; i++) {
+        cout << list[i]->num << " ";
     }
 
+    vector<Person*>::iterator iter;
+    for (iter=persons.begin(); iter != persons.end(); ++iter ){
+        delete *iter;
+    }
+    persons.clear();
+    list.clear();
 }
