@@ -10,3 +10,12 @@ cin.tie(NULL);
 cout.tie(NULL); 
 ```
 
+구조체 포인터 delete
+
+```
+vector<Struct*>::iterator iter;
+    for (iter=struct.begin(); iter != struct.end(); ++iter ){
+        delete *iter;
+    }
+    struct.clear();
+```
