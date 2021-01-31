@@ -6,8 +6,7 @@
 - 사용 언어: python, c++
 - 난이도 기준: level 0 ~ 5 or 백준 [solved.ac](https://solved.ac/)
 
-
-
+#
 
 ### 0. 기본 수학
 
@@ -16,7 +15,14 @@
 | [사칙연산](https://www.acmicpc.net/problem/10869) |     [c++](1_기본수학/1_사칙연산.cpp)     | 브론즈 V | 표준 입력 함수 cin은 공백을 무시한다. |
 |    [합](https://www.acmicpc.net/problem/8393)     | [c++](./2_sort_정렬/2_sort_가장큰수.cpp) | 브론즈 V | .                                     |
 
+#
 
+### 1. 문자열
+|                       제목                        |                   풀이                   |  난이도   | 포인트                                |
+| :-----------------------------------------------: | :--------------------------------------: | :-------: | :------------------------------------ |
+| [튜플](https://programmers.co.kr/learn/courses/30/lessons/64065#) |     [c++](알고리즘/문자열/튜플.cpp)     | level 2 | endl보다 '\n'으로 쓰는게 좋고, set은 중복값을 제외하고 자동 정렬해준다. |
+
+#
 
 ## Algorithm (알고리즘)
 
@@ -28,7 +34,7 @@
 | [가장큰수](https://programmers.co.kr/learn/courses/30/lessons/42746) | [c++](2_sort_정렬/2_sort_가장큰수.cpp) |  level 1  | sort()는 세번째 인자(함수)를 기준으로 정렬가능하다. |
 | [후보 추천하기](https://www.acmicpc.net/problem/1713) | [c++](알고리즘/1_알고리즘_기초/후보추천하기.cpp) | 실버 I |여러 vector에서 하나의 객체를 참조할 때 포인터를 신중히 써야 한다. 공부 필요! |
 
-
+#
 
 ### 2. Search (탐색)
 
@@ -37,9 +43,11 @@
 | binary search (이분 탐색) |    [게임](https://www.acmicpc.net/problem/1072)    |    [c++](알고리즘/2_시간복잡도/게임.cpp)    | 실버 III | .      |
 | binary search (이분 탐색) | [나무자르기](https://www.acmicpc.net/problem/2805) | [c++](알고리즘/2_시간복잡도/나무자르기.cpp) | 실버 III | .      |
 | binary search (이분 탐색) | [수 찾기](https://www.acmicpc.net/problem/1920) | [c++](알고리즘/2_시간복잡도/수찾기.cpp) | 실버 IV | . |
-| DFS (깊이우선탐색) | [가르침](https://www.acmicpc.net/problem/1062) | [c++](알고리즘/1_알고리즘_기초/가르침.cpp) | 골드 IV| . |
+| DFS (깊이우선탐색) | [가르침](https://www.acmicpc.net/problem/1062) | [c++](알고리즘/1_알고리즘_기초/가르침.cpp) | 골드 IV| . |  
 
+#
 
+#
 
 ## Data Structure (자료구조)
 
@@ -48,5 +56,6 @@
 |                      제목                      |                    풀이                    | 난이도  | 포인트                                             |
 | :--------------------------------------------: | :----------------------------------------: | :-----: | :------------------------------------------------- |
 | [고스택](https://www.acmicpc.net/problem/3425) | [c++](알고리즘/1_알고리즘_기초/고스택.cpp) | 골드 II | 10e9를 넘어가는 사칙연산이 존재하면 long long 사용 |
-|                                                |                                            |         |                                                    |
+| [올바른괄호](https://programmers.co.kr/learn/courses/30/lessons/12909) | [c++](자료구조/stack_스택/올바른괄호.cpp) | level 2 | . |
+|  |   |   |  | 
 
