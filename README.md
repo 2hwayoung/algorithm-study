@@ -60,3 +60,10 @@
 | [올바른괄호](https://programmers.co.kr/learn/courses/30/lessons/12909) | [c++](자료구조/stack_스택/올바른괄호.cpp) | level 2 | . |
 |  |   |   |  | 
 
+
+### 2. Queue (큐)
+|                      제목                      |                    풀이                    | 난이도  | 포인트                                             |
+| :--------------------------------------------: | :----------------------------------------: | :-----: | :------------------------------------------------- |
+| [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584) | [c++](자료구조/queue_큐/주식가격.cpp) | level 2 | . |
+| [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) | [c++](자료구조/queue_큐/기능개발.cpp) | level 2 | . |
+| [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) | [c++](자료구조/queue_큐/프린터.cpp) | level 2 | . |
