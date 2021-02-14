@@ -5,32 +5,34 @@
 #include <string>
 #include <vector>
 #include <cmath>
-#include <iostream>
+#include <queue>
 
 using namespace std;
 
 vector<int> solution(vector<int> progresses, vector<int> speeds) {
     vector<int> answer;
     vector<int> periods;
+    queue<int> q;
+
     for (int i=0; i < progresses.size(); i++) {
         int period = ceil((double)(100 - progresses[i])/speeds[i]);
         periods.push_back(period);
-        cout << period << " ";
     }
-    vector<int> ::iterator iter = periods.begin();
-    for (int i = 0; i < periods.size(); i++) {
-        int count = 1;
-        iter = periods.begin() + i;
-        cout << i <<":" << periods.size()<<"\n";
-        for (int j = i+1; j < periods.size(); j++) {
-            iter ++;
-            if (periods[j] <= periods[i]) {
-                count ++;
-                periods.erase(iter);
-            }
+    
+    q.push(periods.front());
+
+    for (int i = 1; i < periods.size(); i++) {
+        if (q.front() < periods[i]) {
+            answer.push_back(q.size());
+            while (!q.empty()) q.pop();
+            q.push(periods[i]);
+        } else {
+            q.push(periods[i]);
         }
-        periods.erase(periods.begin() + i);
-        answer.push_back(count);
+    }
+
+    if (!q.empty()) {
+        answer.push_back(q.size());
     }
     return answer;
 }
