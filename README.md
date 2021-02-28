@@ -45,12 +45,19 @@
 | binary search (이분 탐색) | [나무자르기](https://www.acmicpc.net/problem/2805) | [c++](알고리즘/2_시간복잡도/나무자르기.cpp) | 실버 III | .      |
 | binary search (이분 탐색) | [수 찾기](https://www.acmicpc.net/problem/1920) | [c++](알고리즘/2_시간복잡도/수찾기.cpp) | 실버 IV | . |
 | DFS (깊이우선탐색) | [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165) | [c++](알고리즘/search_탐색/타겟넘버.cpp) | level 2| 함수의 파라미터에 저장되는 값은 &가 아닌 이상 value이다. |  
+| DFS (깊이우선탐색) | Road Repair | [c++](알고리즘/search_탐색/RoadRepair.cpp) | basic | sort함수로 먼저 정렬해주었다. |  
 | DFS (깊이우선탐색) | [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162) | [c++](알고리즘/search_탐색/네트워크.cpp) | level 3| .|  
 | DFS (깊이우선탐색) | [단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163) | [c++](알고리즘/search_탐색/단어변환.cpp) | level 3| .|  
 | DFS (깊이우선탐색) | [가르침](https://www.acmicpc.net/problem/1062) | [c++](알고리즘/1_알고리즘_기초/가르침.cpp) | 골드 IV| . |  
 
 
 #
+
+### 3. dp (동적프로그래밍)
+
+|                             제목                             |                  풀이                  | 난이도 | 포인트                                              |
+| :----------------------------------------------------------: | :------------------------------------: | :----: | :-------------------------------------------------- |
+| [3xn 타일링](https://programmers.co.kr/learn/courses/30/lessons/12902) | [c++](알고리즘/dp_동적프로그래밍/3xn타일링.cpp)  |  level 2  | 간단한 dp!        |
 
 #
 
