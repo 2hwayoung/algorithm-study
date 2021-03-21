@@ -1,5 +1,7 @@
 // title: Road Repair
 // 분류: dfs
+// 출처: HackerRank test - basic
+
 /* 문제: A number of points along the highway are in need of repair. An equal number of crews are available, stationed at various points along the highway.
 They must move along the highway to reach an assigned point. 
 Given that one crew must be assigned to each job, what is the minimum total amout of distance traveled by all crews before they can begin work?
@@ -11,6 +13,7 @@ Function Description
 Complete the function getMinCost in the editor below.
 The function should return the minimum possible total distance traveled as an integer.
 */
+
 #include <bits/stdc++.h>
 #include <algorithm>
 
