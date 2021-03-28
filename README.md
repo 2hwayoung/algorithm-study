@@ -27,10 +27,10 @@
 | [문자열다루기](https://programmers.co.kr/learn/courses/30/lessons/12918) |     [c++](문자열/문자열다루기.cpp)     | level 1 | char를 int로 바꿀때 -'0'해야 한다. |
 | [튜플](https://programmers.co.kr/learn/courses/30/lessons/64065#) |     [c++](문자열/튜플.cpp)     | level 2 | endl보다 '\n'으로 쓰는게 좋고, set은 중복값을 제외하고 자동 정렬해준다. |
 | [압축](https://programmers.co.kr/learn/courses/30/lessons/17684) |     [c++](문자열/압축.cpp)     | level 2 | string(1, 'A'+i) // char -> string 변환 |
-|  [싸이버개강총회](https://www.acmicpc.net/problem/19583)    |   [python](문자열/싸이버개강총회.py)    | 실버 I  | dict에서 특정 key에 대한 value를 찾을 때 인덱스 방법이 아니라 get() 메서드를 썼더니 런타임 에러 해결됨. |
+|  [싸이버개강총회](https://www.acmicpc.net/problem/19583)    |   [python](문자열/싸이버개강총회py)    | 실버 I  | dict에서 특정 key에 대한 value를 찾을 때 get() 메서드를 사용해야 not exist 경우 해결가능 (None return) |
 |  [HTML](https://www.acmicpc.net/problem/6581)         |        [python](문자열/HTML.py)         | 실버 I  | split()는 한 개 이상의 공백문자/탭/개행문자 모두 포함        |
 |  [문자열 폭발](https://www.acmicpc.net/problem/9935)      |     [python](문자열/문자열폭발.py)      | 골드 IV | list에서 인덱스를 뒤에서부터 읽는 것도 유용, 문자열 수가 커서 스택 사용해야 제한시간안에 성공가능                  |
-|                                                              |                                         |         |                                                              |
+|  [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/)      |     [python](문자열/LongestPalindromicSubstring.py)      | Medium | dynamic programming 사용, 항상 문자 한 개부터 palindromic에 해당된다는 사실에서부터 시작한다 |
 
 #
 
