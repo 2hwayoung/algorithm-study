@@ -1,37 +1,32 @@
 # link : https://www.acmicpc.net/problem/9935
 
-text=input()
-bomb=input()
 
-ans=[]
-
-for i in text:
-    #하나씩 스택에 넣어준다
-    ans.append(i)
-    #ans와 bomb의 길이가 같으면
-    if len(ans)>=len(bomb):
-        #뒤에서 부터 검사 왜냐하면 앞에서부터 하면 112ab고 12ab일때 일치 하지 않기때문
-        check = []
-        checkcount=0
+# 폭발 문자열은 같은 문자 두 개 이상 포함 X
+inputs = input()
+bombs = input()
+last = bombs[-1]
+size = len(bombs)
+answer = []
+count = 0
+for word in inputs:
+    answer.append(word)
+    count += 1
+    if (count < size):
+        continue
+    # 현재 위치가 폭발 문자열 끝문자랑 같을 때 확인한다
+    if (word == last):
         same = True
-        for j in range(-1,(-len(bomb))-1,-1):
-            if ans[j] != bomb[j]:
-                #하나라도 다르면 false
+        for i in range(-1, (-len(bombs))-1, -1):
+            if answer[i] != bombs[i]:
                 same = False
                 break
         
-        if same == True:
-            a=0
-            #bomb의 길이만큼 pop
-            while a<len(bomb):
-                ans.pop()
-                a+=1
+        if same:
+            for i in range(size):
+                answer.pop()
 
-#길이가 0이면 FRULA
-if len(ans)==0:
+# 남아 있는 문자가 없는 경우 FRULA 출력
+if len(answer) == 0:
     print("FRULA")
 else:
-    str=""
-    for i in ans:
-        str+=i
-    print(str)
+    print("".join(answer))  
