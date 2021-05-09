@@ -104,3 +104,11 @@
 | [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584) | [c++](자료구조/queue/주식가격.cpp) | level 2 | .    |
 | [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) | [c++](자료구조/queue/기능개발.cpp) | level 2 | .    |
 | [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) |  [c++](자료구조/queue/프린터.cpp)  | level 2 | .    |
+
+#
+
+#### Heap (힙)
+
+|                             제목                             |                 풀이                  | 난이도  | 한줄 |
+| :----------------------------------------------------------: | :-----------------------------------: | :-----: | :--- |
+| [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) | [c++](자료구조/heap/더맵게.cpp) | level 2 | 우선순위큐는 데이터를 넣으면 자동 정렬된다. |
