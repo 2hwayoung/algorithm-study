@@ -64,6 +64,7 @@
 | DFS | [단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163) | [c++](알고리즘/search/단어변환.cpp) | level 3| .|
 | DFS | [가르침](https://www.acmicpc.net/problem/1062) | [c++](알고리즘/search/가르침.cpp) | 골드 IV| . |
 | BFS | (!)[나잡아봐라](https://engineering.linecorp.com/ko/blog/2019-firsthalf-line-internship-recruit-coding-test/) | [c++](알고리즘/search/나잡아봐라.cpp) | . | 2019 상반기 LINE 인턴 코딩테스트 문제 |
+| 완전탐색 | [감소하는수](https://www.acmicpc.net/problem/1038) | [c++](알고리즘/search/감소하는수.cpp) | 골드 V | 어떻게 재귀함수를 쓰는가에 따른 자동 sort |
 
 #
 
