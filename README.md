@@ -32,9 +32,9 @@
 |                         [HTML](https://www.acmicpc.net/problem/6581)                          |            [python](문자열/HTML.py)             |  실버 I   | split()는 한 개 이상의 공백문자/탭/개행문자 모두 포함                                                  |
 |                      [문자열 폭발](https://www.acmicpc.net/problem/9935)                      |         [python](문자열/문자열폭발.py)          |  골드 IV  | list에서 인덱스를 뒤에서부터 읽는 것도 유용, 문자열 수가 커서 스택 사용해야 제한시간안에 성공가능      |
 | [Longest Palindromic Substring](https://leetcode.com/problems/longest-palindromic-substring/) | [python](문자열/LongestPalindromicSubstring.py) |  Medium   | dynamic programming 사용, 항상 문자 한 개부터 palindromic에 해당된다는 사실에서부터 시작한다           |
-|                        [고양이](https://www.acmicpc.net/submit/10171)                         |        [python](문자열/10171_고양이.py)         | 브론드 V  | 생각보다 어렵다.                                                                                       |
-|                          [개](https://www.acmicpc.net/submit/10172)                           |          [python](문자열/10172_개.py)           | 브론드 V  | 생각보다 어렵다.                                                                                       |
-|                          [곱셈](https://www.acmicpc.net/submit/2588)                          |          [python](문자열/2588_곱셈.py)          | 브론드 IV | .                                                                                                      |
+|                       [고양이](https://www.acmicpc.net/problem//10171)                        |        [python](문자열/10171_고양이.py)         | 브론드 V  | 생각보다 어렵다.                                                                                       |
+|                         [개](https://www.acmicpc.net/problem//10172)                          |          [python](문자열/10172_개.py)           | 브론드 V  | 생각보다 어렵다.                                                                                       |
+|                         [곱셈](https://www.acmicpc.net/problem//2588)                         |          [python](문자열/2588_곱셈.py)          | 브론드 IV | .                                                                                                      |
 
 #
 
