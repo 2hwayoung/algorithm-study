@@ -1,4 +1,5 @@
 # https://www.acmicpc.net/problem/1546
+# # https://www.acmicpc.net/problem/1546
 # 분류 : 1치원 배열
 
 import sys
